@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Waste Collection Locator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>E-Waste Collection Locator</h1>
+    <p>Find the nearest authorized e-waste drop-point</p>
+  </header>
+
+  <button id="locateBtn">Find Nearest Centers</button>
+
+  <div id="map"></div>
+
+  <script src="script.js"></script>
+  <script async 
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+  </script>
+</body>
+</html>
